@@ -1,7 +1,7 @@
 
 import './card.css';
 //import FOOTER from "./footer";
-import AudioPlayer from "material-ui-audio-player";
+//import AudioPlayer from "material-ui-audio-player";
 
 
 

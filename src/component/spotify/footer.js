@@ -18,8 +18,7 @@ const { value } = props;
           volume={true}
           loop={true}
         />
-      
-    // </div>
+</div>
   );
 }
 

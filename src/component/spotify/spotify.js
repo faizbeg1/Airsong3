@@ -5,7 +5,7 @@ import CARD from "./card";
 import "./spotify.css";
 import Search from "./search";
 import { itune } from "./api";
-import { Input } from "@material-ui/core";
+// import { Input } from "@material-ui/core";
 
 
 function SPOTIFY(){
@@ -15,18 +15,18 @@ function SPOTIFY(){
        // console.log(Song);
     }
     
-    const [currentInput,setInput]=useState("Atif aslam")    
-        function StartSearch(input){
-            setInput(input)
-            console.log('input')
-        }
+    //const [currentInput,setInput]=useState("Atif aslam")    
+        // function StartSearch(input){
+        //     setInput(input)
+        //     console.log('input')
+        // }
     
     
     
     const [results, setResults] = useState([])
     // let results = [];
     useEffect(() => {
-        itune(currentInput).then(res => {
+        itune("Atif aslam").then(res => {
             console.log(res);
             // results = res.results;
             setResults(res.results);
@@ -41,7 +41,7 @@ function SPOTIFY(){
         <div className="frame">
             <hr/>
             <h2 className="second-head"> Hear what’s trending for free in the Air Song community</h2>
-            <Search value={currentInput} />
+            <Search  />
             
             
             
