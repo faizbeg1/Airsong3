@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+}
+hr {
+  margin-top: -20px;
+  line-height: 1px;
+  border-top: 1px black;
+}
+
+.spotify-logo {
+  cursor: pointer;
+  width: 200px;
+  height: 157px;
+  max-width: 100%;
+  margin-top: -20px;
+}
+.social-sites {
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  display: grid;
+  margin-bottom: 30px;
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  width: 400px;
+}
+/* button{
+    margin: 10px 0;
+} */
+.social-site-f {
+  cursor: pointer;
+  color: #fff;
+  background-color: #3b5998;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 24px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border-radius: 500px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.social-site-a {
+  cursor: pointer;
+  color: #fff;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 24px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border-radius: 500px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}

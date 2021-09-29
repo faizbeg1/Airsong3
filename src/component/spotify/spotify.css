@@ -1,0 +1,22 @@
+.frame {
+  background-color: lightgrey;
+
+  height: 100%;
+}
+.card_list {
+  display: flex;
+  /* height: 100%; */
+  flex-wrap: wrap;
+}
+.spotify_container {
+  height: 100vh;
+}
+.second-head {
+  left: 10px;
+  font-family: "Assistant", sans-serif;
+  justify-content: center;
+  display: flex;
+  top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
