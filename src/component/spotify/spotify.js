@@ -4,7 +4,7 @@ import FOOTER from "./footer";
 import CARD from "./card";
 import "./spotify.css";
 import Search from "./search";
-import { itune } from "./api";
+// import { itune } from "./api";
 // import { Input } from "@material-ui/core";
 
 
@@ -34,6 +34,17 @@ function SPOTIFY(){
         //console.log(data);
         // setResults(data.results);
     }, [])
+
+    async function itune(input) {
+        const url=`https://itunes.apple.com/search?term=${input}`
+      // const url=`https://itunes.apple.com/lookup?amgArtistId=468749&entity=album&limit=5`
+    
+  
+      const res= await fetch(url);
+      const actual_data=await res.json();
+      // console.log(actual_data.results);
+      return actual_data;
+  }
         
     return(
         <div className="spotify_container">
